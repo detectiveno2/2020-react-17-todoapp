@@ -1,0 +1,50 @@
+.TodoApp {
+  background: rgb(95, 180, 191);
+  background: linear-gradient(
+    180deg,
+    rgba(95, 180, 191, 1) 0%,
+    rgba(181, 221, 226, 1) 100%
+  );
+  width: 400px;
+  margin: auto;
+  border-radius: 6px;
+  padding: 15px;
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(143, 211, 221, 1);
+  -moz-box-shadow: 0px 0px 20px 0px rgba(143, 211, 221, 1);
+  box-shadow: 0px 0px 20px 0px rgba(143, 211, 221, 1);
+}
+
+.TodoApp .White-text {
+  color: #ffffff;
+}
+
+.TodoApp .Body-app .Title {
+  text-align: left;
+  font-weight: 500;
+  font-size: 10px;
+  letter-spacing: 3px;
+  margin-left: 15px;
+}
+
+.TodoApp .Header p {
+  letter-spacing: 6px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.TodoApp .Add-btn {
+  background-color: #ffffff;
+  box-sizing: border-box;
+  width: 40px;
+  height: 40px;
+  padding: 12px;
+  margin: 20px auto 0px auto;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.TodoApp .Add-btn img {
+  filter: invert(82%) sepia(43%) saturate(280%) hue-rotate(140deg)
+    brightness(89%) contrast(95%);
+}

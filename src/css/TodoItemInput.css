@@ -1,0 +1,60 @@
+.TodoItemInput {
+  position: fixed;
+  left: 448px;
+  top: 200px;
+  width: 470px;
+  height: 124px;
+  background-color: #18314F;
+  border-radius: 8px;
+  padding-top: 22px;
+}
+
+.TodoItemInput .TodoItemInput-wrapper {
+  position: relative;
+}
+
+.TodoItemInput.hide {
+  display: none;
+}
+
+.TodoItemInput.show {
+  display: block;
+}
+
+.TodoItemInput-wrapper input {
+  padding: 10px 10px;
+  margin: auto;
+  margin-top: 16px;
+  width: 92%;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 4px;
+}
+
+.TodoItemInput-wrapper input:focus {
+  outline: none;
+}
+
+.TodoItemInput-wrapper div {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 19px;
+}
+
+.TodoItemInput-wrapper div .btn {
+  border: none;
+  border-radius: 4px;
+  padding: 12px 26px;
+  color: #ffffff;
+  margin-top: 16px;
+  cursor: pointer;
+}
+
+.TodoItemInput-wrapper div .btn.add-btn {
+  background-color: #5fb4bf;
+}
+
+.TodoItemInput-wrapper div .btn.close-btn {
+  background-color: #DE6B48;
+  margin-left: 10px;
+}
